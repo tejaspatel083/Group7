@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/ic_launcher_foreground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TODO LIST"
+        android:textSize="50dp"
+        android:textColor="#D3D7c0"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Press Button to select date"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="340dp"/>
+
+    <Button
+        android:id="@+id/clickbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/shape"
+        android:text="Click"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="-:Developers:-"
+        android:textSize="30dp"
+        android:textColor="#090A0F"
+        android:textStyle="bold"
+        android:layout_marginTop="560dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TEJAS PATEL - 2091244"
+        android:textSize="10dp"
+        android:textColor="#090A0F"
+        android:textStyle="bold"
+        android:layout_marginTop="610dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="MAYUR PATEL - 2091270"
+        android:textSize="10dp"
+        android:textColor="#090A0F"
+        android:textStyle="bold"
+        android:layout_marginTop="630dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SAIKIRAN REDDY - 2091305"
+        android:textSize="10dp"
+        android:textColor="#090A0F"
+        android:textStyle="bold"
+        android:layout_marginTop="650dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="MANOJ KUMAR - 2091243"
+        android:textSize="10dp"
+        android:textColor="#090A0F"
+        android:textStyle="bold"
+        android:layout_marginTop="670dp"/>
+
+
+</RelativeLayout>
